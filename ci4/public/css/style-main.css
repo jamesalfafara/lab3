@@ -1,0 +1,179 @@
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: 'Sofia Sans', sans-serif;
+}
+
+/* Header (Top part) */
+.header {
+    padding: 150px;
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 4rem;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: rgb(91, 124, 176);
+ }
+ nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+ }
+ nav li {
+    float: left;
+    margin-left: 1%;
+ }
+ nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+ }
+ nav a:hover {
+    background-color: #111;
+ }
+
+  
+
+/* Body (whole page) */
+body {
+    width: 100vw;
+    background-color: rgb(201, 228, 246);
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    padding: 100px;
+}
+
+.portfolio {
+    justify-content: space-between;
+}
+
+.portfolio > div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 0 2rem;
+    margin-left: 20px;
+}
+h1 {
+    color: rgb(91, 124, 176);
+    font-size: 2rem;
+}
+
+.title {
+    font-size: 100px;
+    color: rgb(91, 124, 176);
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.about-me-title {
+    font-size: 35px;
+    color: rgb(91, 124, 176);;
+}
+
+.about-me-desc {
+    color: rgb(100, 130, 180);
+    font-size: 20px;
+    line-height: 150%;
+    text-align: left;
+}
+
+.portfolio-button {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(91, 124, 176);
+    border-radius: 20px;
+    padding: 20px 40px; 
+    transition: .5s;
+    /* change button size*/
+}
+
+.portfolio-button:hover {
+    transform: scale(1.1)
+}
+
+.my-socials {
+    font-size: 50px;
+    text-align: center;
+    padding: 30px;
+    margin: 0;
+}
+
+.contact {
+    text-align: center;
+    padding: 0;
+}
+
+.socials {
+    text-align: center;
+}
+
+.facebook {
+    transition: .5s;
+}
+
+.insta {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.facebook:hover {
+    transform: matrix(1.1);
+}
+
+/*   
+
+h2 {
+    text-align: center;
+    color: rgb(91, 124, 176);
+}
+.about-me-title {
+    text-align: left;
+    position: relative;
+    top: -450px;
+    right: -750px
+}
+
+.first-pic {
+    opacity: 50%;
+    position: relative;
+    top: 150px;
+    left: -350px;
+}
+
+.second-pic {
+    opacity: 50%;
+    position: relative;
+    left: 350px;
+}
+
+p {
+    color: #4C566A
+}
+
+
+   */
