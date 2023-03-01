@@ -5,10 +5,7 @@
 </head>
 
 
-<?php
-$css = file_get_contents('css/style-main.css');
-echo $css;
-?>
+<link rel="stylesheet" href="style-main.css">
 
 <nav>
     <ul>
