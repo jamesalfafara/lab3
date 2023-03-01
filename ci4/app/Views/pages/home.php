@@ -4,10 +4,16 @@
     <title>About Me</title>
 </head>
 
+
+<?php
+$css = file_get_contents('css/style-main.css');
+echo $css;
+?>
+
 <nav>
     <ul>
        <li><a href="./index.html">About</a></li>
-       <li><a href="./portfolio.php">Portfolio</a></li>
+       <li><a href="./portfolio.html">Portfolio</a></li>
        <li><a href="./JavaScript Testing/javascript_test.html">JavaScript Testing</a></li>
        <li><a href="./PHP/index.php">Forms</a></li>
        <li><a href="./Guests/guests.php">Guests</a></li>
