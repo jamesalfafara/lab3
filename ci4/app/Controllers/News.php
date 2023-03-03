@@ -38,7 +38,7 @@ class News extends BaseController
             . view('templates/footer');
     }
 	
-	    public function create()
+    public function create()
     {
         helper('form');
 
