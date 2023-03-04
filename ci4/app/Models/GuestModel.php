@@ -4,9 +4,9 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-clas GuestModel extends Model
+class GuestModel extends Model
 {
-	protected $table = 'jsalfafara_myguest';
+	protected $table = 'myguests';
 
 	public function getGuest()
 	{

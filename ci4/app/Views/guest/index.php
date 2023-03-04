@@ -1,7 +1,7 @@
 <h2><?= esc($title) ?></h2>
 
 <?php if (! empty($guest) && is_array($guest)): ?>
-	<?php foreach ($guest as $guest_item: ?>
+	<?php foreach ($guest as $guest_item): ?>
 	
 		<div class="main">
 		<h3><?= esc($guest_item['name']) ?></h3>
